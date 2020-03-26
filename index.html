@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <script text="text/javascript">
+            var z=Math.floor(Math.random()*255);
+            var b=Math.floor(Math.random()*255);
+            var c=Math.floor(Math.random()*255);
+            var a=document.getElementById("random").innerHTML="rgb"+"("+z+","+" "+b+","+" "+c+")";
+            var d=document.getElementById("random").innerHTML;
+            function f(){
+            // var a=document.getElementById("random").innerHTML;
+            
+            document.getElementById("random").innerHTML="rgb"+"("+z+","+b+","+c+")";
+            // var q=document.getElementsByTagName("button");
+            // q[0].style.backgroundColor=a;
+            var r=Math.floor(Math.random()*5);
+            for(i=0 ; i<6;i++){
+                if(i==r){
+                    var m=document.getElementsByTagName("button");
+                    m[i].style.backgroundColor=a;
+                }
+                else{
+                    var p=Math.floor(Math.random()*255);
+                    var o=Math.floor(Math.random()*255);
+                    var g=Math.floor(Math.random()*255);
+                    var k=document.getElementsByTagName("button");
+                    k[i].style.backgroundColor="rgb"+"("+p+","+o+","+g+")";
+
+                }
+ }}
+           function f1(var1){
+               
+            //   alert(document.getElementById(var1).style.backgroundColor);
+            // alert(d);
+               
+               
+               
+            
+               if(d==document.getElementById(var1).style.backgroundColor){
+                   alert("correct");
+               }
+               else{
+                   alert("not correct")
+               }
+           }
+
+        </script>
+        
+    
+        
+    </head>
+    <body>
+        <div class="heading">
+            <h3><b>Guess the Color!!</b></h3>
+        </div>
+        
+               <p id="random">rgb(0,0,0)</p> 
+               
+    
+        <div class="divs">
+            <button class="button" id="b0" onclick="f1('b0')"></button>
+            <button class="button" id="b1"  onclick="f1('b1')"></button>
+            <button class="button" id="b2"  onclick="f1('b2')"></button>
+            
+            <button class="button" id="b3"  onclick="f1('b3')"></button>
+            <button class="button" id="b4"   onclick="f1('b4')"></button>
+            <button class="button" id="b5"   onclick="f1('b5')"></button>
+
+        </div>
+
+        <button onclick="f()">click</button>
+        
+
+    </body>
+</html>

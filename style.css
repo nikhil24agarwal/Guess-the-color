@@ -1,0 +1,34 @@
+.heading{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30;
+    font-stretch: expanded;
+}
+b{
+    color: white;
+}
+body{
+    background-color: black;
+}
+.div1{
+    color:red;
+    border-radius: 5px 5px;
+    background-color: red;
+}
+.button{
+    border-radius: 50%;
+    size: 100px;
+    padding:30px;
+    margin:30px;
+}
+
+.divs{
+    height:100px;
+    padding:20px;
+}
+#random{
+    background-color: white;
+    height: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
