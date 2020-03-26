@@ -19,16 +19,24 @@ body{
     border-radius: 50%;
     size: 100px;
     padding:30px;
-    margin:30px;
+    margin:35px;
 }
 
 .divs{
     height:100px;
     padding:20px;
+    margin-left: 150px;
 }
 #random{
     background-color: white;
     height: 20px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+.h{
+    size: 20px;
+    height: 30px;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 20px;
 }
