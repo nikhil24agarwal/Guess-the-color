@@ -5,12 +5,14 @@
             var z=Math.floor(Math.random()*255);
             var b=Math.floor(Math.random()*255);
             var c=Math.floor(Math.random()*255);
-            var a=document.getElementById("random").innerHTML="rgb"+"("+z+","+" "+b+","+" "+c+")";
-            var d=document.getElementById("random").innerHTML;
+           
             function f(){
             // var a=document.getElementById("random").innerHTML;
             
-            document.getElementById("random").innerHTML="rgb"+"("+z+","+b+","+c+")";
+            var a=document.getElementById("random").innerHTML="rgb"+"("+z+","+" "+b+","+" "+c+")";
+            var d=document.getElementById("random").innerHTML;
+            
+            
             // var q=document.getElementsByTagName("button");
             // q[0].style.backgroundColor=a;
             var r=Math.floor(Math.random()*5);
@@ -36,7 +38,7 @@
                
                
             
-               if(d==document.getElementById(var1).style.backgroundColor){
+               if(document.getElementById("random").innerHTML==document.getElementById(var1).style.backgroundColor){
                    alert("correct");
                }
                else{
