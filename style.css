@@ -17,14 +17,14 @@ body{
 }
 .button{
     border-radius: 50%;
-    size: 100px;
-    padding:30px;
-    margin:35px;
+    size: 101px;
+    padding:32px;
+    margin:36px;
 }
 
 .divs{
-    height:100px;
-    padding:20px;
+    height:99px;
+    padding:22px;
     margin-left: 150px;
 }
 #random{
